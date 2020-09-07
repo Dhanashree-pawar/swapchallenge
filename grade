@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	
+	printf("enter your marks: ");
+	 int marks;
+	 
+	 scanf("%d", &marks);
+	 
+	 printf("your grade is: %s", marks>=85? "grade A" : ( marks>=70 && marks <84? "grade B" : ( marks>=55 && marks <69? "grade C" : ( marks>=40 && marks <54? "grade D" : "grade E"))));
+	
+	
+	
+}
