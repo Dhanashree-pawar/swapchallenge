@@ -1,0 +1,40 @@
+#include<stdio.h>
+main()
+{
+	
+	printf(" what would you like to have for supper?\n 1.pasta\n 2.burger\n 3.sandwich\n 4.french fries\n 5.pizza \n");
+	 int choice;
+	 
+	 scanf("%d", &choice);
+	 
+	 switch(choice)
+	 {
+	 	case 1:
+	 	
+	 	 printf(" food item - pasta\n food price - Rs179/-\n");
+	 	 break;
+	 	
+	 	case 2:
+	 	
+	 	printf(" food item - burger\n food price - Rs129/-\n");
+	 	 break;
+	 	 
+	 	case 3:
+	 	
+	 	 printf(" food item - sandwich\n food price - Rs149/-\n");
+	 	  break;
+	 	
+	 	case 4:
+	 	
+	 	 printf(" food item - french fries\n food price - Rs99/-\n");
+	 	 break;
+	 	case 5:
+	 	
+	 	 printf(" food item - pizza\n food price - Rs239/-\n");
+	     break;	
+	 	
+	 	
+	 }
+	 
+	printf("sorry! not in the menu.");
+}
