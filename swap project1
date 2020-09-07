@@ -1,0 +1,16 @@
+#include<stdio.h>
+main()
+{
+	
+	int a,b,*P1,*P2;
+	printf("enter two numbers : ");
+	scanf("%d%d", &a, &b);
+	
+	P1 = &a;
+	P2 = &b;
+	
+	 printf(" before swapping:\n a=%d\n b=%d", *P1,*P2);
+	 printf(" \nafter swapping:\n a=%d\n b=%d", *P2,*P1);
+	 
+	
+}
